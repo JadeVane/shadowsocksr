@@ -5,26 +5,26 @@
     "local_address": "127.0.0.1",
     "local_port": 1080,
 
-    "password": "ss_Password",
-    "method": "ss_method",
-    "protocol": "ss_protocol",
-    "protocol_param": "ss_Online_Num#",
-    "obfs": "ss_obfs",
+    "password": "Ss_Password",
+    "method": "Ss_Method",
+    "protocol": "Ss_Protocol",
+    "protocol_param": "Ss_Online_Limit",
+    "obfs": "Ss_Obfs",
     "obfs_param": "",
     "speed_limit_per_con": 0,
-    "speed_limit_per_user": ss_Ban_Limit,
+    "speed_limit_per_user": Ss_Speed_Limit,
 
-    "additional_ports_only" : single_Port_Enable, // only works under multi-user mode
+    "additional_ports_only" : Single_Port_Enable, // only works under multi-user mode
     "additional_ports" : {
         "single_Port_Num": {
-            "password": "ss_Password",
-            "method": "ss_method",
-            "protocol": "ss_protocol",
-            "protocol_param": "ss_Online_Num#",
-            "obfs": "ss_obfs",
+            "password": "Ss_Password",
+            "method": "Ss_Method",
+            "protocol": "Ss_Protocol",
+            "protocol_param": "Ss_Online_Limit",
+            "obfs": "Ss_Obfs",
             "obfs_param": "",
             "speed_limit_per_con": 0,
-            "speed_limit_per_user": ss_Ban_Limit
+            "speed_limit_per_user": Ss_Speed_Limit
         }
     },
     "timeout": 120,
